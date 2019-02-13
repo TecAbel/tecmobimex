@@ -1,0 +1,53 @@
+img.logoSuperior{
+    height: 25px;
+}
+h2{
+    color: rgb(206, 64, 64);
+    text-align: center;
+    font-size: 250%;
+}
+
+h3{
+    color: rgb(206, 64, 64);
+    font-size: 150%;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav.navegacion{
+    background: rgb(226, 47, 47);
+    font-family: 'Anton', sans-serif;
+}
+nav ul{
+    list-style: none;
+}
+nav.navegacion li{
+    display: inline;
+    position: relative;
+    font-size: 30px;
+}
+
+nav.navegacion ul li a{
+    color: white;
+}
+nav.navegacion ul li a{
+    text-decoration: none;
+}
+ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav.navegacion ul li a:focus,
+nav.navegacion ul li a:visited,
+nav.navegacion ul li a:active{
+    color: white;
+}
+/*Paso por encima*/
+nav.navegacion ul li a:hover{
+    background-color: black
+}
