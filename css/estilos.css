@@ -1,6 +1,9 @@
 img.logoSuperior{
     height: 25px;
 }
+img.logoPrincipal{
+    height: 200px;
+}
 h2{
     color: rgb(206, 64, 64);
     text-align: center;
