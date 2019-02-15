@@ -11,9 +11,11 @@ footer{
 div.contenedor{
     background: white;
     /*para centrar*/
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 75%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto 0 auto;
+    padding: 2% 2% 2% 2%;
 }
 
 table{
@@ -70,6 +72,7 @@ header{
 }
 nav ul{
     list-style: none;
+    
 }
 nav.navegacion li{
     display: inline;
