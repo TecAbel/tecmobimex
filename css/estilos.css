@@ -1,3 +1,36 @@
+body{
+    background: grey;
+}
+footer{
+    margin-top: 15px;
+    text-align: center;
+    background: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+div.contenedor{
+    background: white;
+    /*para centrar*/
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table  *{
+    text-align: center;
+}
+table 
+
+
+
+table tfoot td{
+    text-align: center;
+}
+
 img.logoSuperior{
     height: 1em;
 }
@@ -25,14 +58,15 @@ h1, h2, h3, h4{
     letter-spacing: 3px;
 }
 
-p{
+p,table{
     text-align: justify;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-nav.navegacion{
-    background: rgb(226, 47, 47);
+header{
+    background: rgb(226, 113, 47);
     font-family: 'Anton', sans-serif;
+    font-size: 1.7em;
 }
 nav ul{
     list-style: none;
@@ -40,7 +74,7 @@ nav ul{
 nav.navegacion li{
     display: inline;
     position: relative;
-    font-size: 30px;
+    
 }
 
 nav.navegacion ul li a{
@@ -60,4 +94,8 @@ nav.navegacion ul li a:active{
 /*Paso por encima*/
 nav.navegacion ul li a:hover{
     background-color: black
+}
+nav.navegacion{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
