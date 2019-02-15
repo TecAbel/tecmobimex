@@ -24,11 +24,9 @@ table{
 }
 table  *{
     text-align: center;
+    background: rgb(223, 128, 74);
+    color: aliceblue;
 }
-table 
-
-
-
 table tfoot td{
     text-align: center;
 }
@@ -42,22 +40,15 @@ img.logoPrincipal{
 img.logoAny{
     height: 3em;
 }
-h2{
-    font-size: 250%;
-}
 
-h3{
-    font-size: 150%;
-}
-h4{
-    font-size: 120%;
-}
 h1, h2, h3, h4{
-    color: rgb(206, 64, 64);
+    color: white;
+    background: rgb(226, 113, 47);
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    padding: 1px 0 1px 0;
 }
 
 p,table{
@@ -69,6 +60,8 @@ header{
     background: rgb(226, 113, 47);
     font-family: 'Anton', sans-serif;
     font-size: 1.7em;
+    width: 79%;
+    margin: 0 auto 0 auto;
 }
 nav ul{
     list-style: none;
