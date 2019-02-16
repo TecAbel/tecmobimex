@@ -27,20 +27,20 @@ div.remoto a img{
 }
 
 footer{
-    margin-top: 15px;
+    width: 84%;
+    margin: 12px auto 0 15%;
     text-align: center;
     background: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 2% 2% 2% 2%;
     box-sizing: border-box; /*Mantiene el tamaño original*/
 }
 div.contenedor{
     background: white;
     /*para centrar*/
-    width: 75%;
+    width: 80%;
     /*margin-left: auto;
     margin-right: auto;*/
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 15%;
     padding: 2% 2% 2% 2%;
 }
 
@@ -67,7 +67,7 @@ div.logo{
 }
 
 img.logoSuperior{
-    height: 1em;
+    height: 3em;
 }
 img.logoPrincipal{
     height: 8em;
@@ -92,21 +92,11 @@ p,table{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-header{
-    background: rgb(226, 113, 47);
-    font-family: 'Merriweather', serif;
-    font-size: 1.7em;
-    width: 79%;
-    margin: 0 auto 0 auto;
-}
 nav ul{
     list-style: none;
-    
 }
 nav.navegacion li{
-    display: inline;
-    position: relative;
-    
+    background: rgb(226, 113, 47);
 }
 
 nav.navegacion ul li a{
@@ -117,7 +107,7 @@ nav.navegacion ul li a{
 }
 ul li{
     font-family: 'Merriweather', serif;
-    padding: 0 9px 0 0;
+    padding: 10px 9px 0 0;
 }
 nav.navegacion ul li a:focus,
 nav.navegacion ul li a:visited,
@@ -128,7 +118,14 @@ nav.navegacion ul li a:active{
 nav.navegacion ul li a:hover{
     background-color: black
 }
-nav.navegacion{
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+
+div.navegacion{
+    background: rgb(226, 113, 47);
+    position: fixed;
+    font-family: 'Merriweather', serif;
+    width: 15%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
