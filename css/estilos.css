@@ -1,17 +1,43 @@
 body{
     background: grey;
 }
+/*Necesarios si se usa float*/
+.clearfix:before,
+.clearfix:after{
+    content: '';
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+div.presencial{
+    float: left;
+    width: 48%;
+}
+div.remoto{
+    width: 48%;
+    float: right;
+}
+/*Centrar imágenes*/
+div.remoto a img{
+    display: block;
+    margin: auto;
+}
+
 footer{
     margin-top: 15px;
     text-align: center;
     background: white;
     padding-top: 4px;
     padding-bottom: 4px;
+    box-sizing: border-box; /*Mantiene el tamaño original*/
 }
 div.contenedor{
     background: white;
     /*para centrar*/
-    width: 72%;
+    width: 75%;
     /*margin-left: auto;
     margin-right: auto;*/
     margin: 0 auto 0 auto;
@@ -21,24 +47,34 @@ div.contenedor{
 table{
     margin-left: auto;
     margin-right: auto;
+    
 }
 table  *{
     text-align: center;
     background: rgb(223, 128, 74);
     color: aliceblue;
+    
 }
 table tfoot td{
     text-align: center;
+}
+table caption, table thead th, tbody tr td, tfoot td{
+    border: 2px double black;
+}
+
+div.logo{
+    float: left;
 }
 
 img.logoSuperior{
     height: 1em;
 }
 img.logoPrincipal{
-    height: 12em;
+    height: 8em;
+    padding: 0 15px 0 5px;
 }
 img.logoAny{
-    height: 3em;
+    height: 1.5em; 
 }
 
 h1, h2, h3, h4{
@@ -60,7 +96,7 @@ header{
     background: rgb(226, 113, 47);
     font-family: 'Merriweather', serif;
     font-size: 1.7em;
-    width: 76%;
+    width: 79%;
     margin: 0 auto 0 auto;
 }
 nav ul{
@@ -81,6 +117,7 @@ nav.navegacion ul li a{
 }
 ul li{
     font-family: 'Merriweather', serif;
+    padding: 0 9px 0 0;
 }
 nav.navegacion ul li a:focus,
 nav.navegacion ul li a:visited,
