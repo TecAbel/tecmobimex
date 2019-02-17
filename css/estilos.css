@@ -66,9 +66,7 @@ div.logo{
     float: left;
 }
 
-img.logoSuperior{
-    height: 1em;
-}
+
 img.logoPrincipal{
     height: 8em;
     padding: 0 15px 0 5px;
@@ -88,10 +86,27 @@ h1, h2, h3, h4{
 }
 
 p,table{
+    
     text-align: justify;
     font-family: 'Source Sans Pro', sans-serif;
 }
+/*Desarrollo*/
 
+.desarrolloweb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desarrolloweb div{
+    width: 48%;
+}
+
+/*Todo sobre la barra de nav*/
+img.logoSuperior{
+    height: 1.5em;
+    margin: -8px;
+}
 header{
     background: rgb(226, 113, 47);
     font-family: 'Merriweather', serif;
@@ -101,6 +116,8 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    margin-top: -5px;
+    margin-bottom: -8px;
 }
 nav ul{
     list-style: none;
@@ -130,4 +147,8 @@ nav.navegacion ul li a:active{
 /*Paso por encima*/
 nav.navegacion ul li a:hover{
     background-color: black
+}
+
+span{
+    float: right;
 }
