@@ -19,12 +19,10 @@ div.presencial{
 div.remoto{
     width: 48%;
     float: right;
-    background: url("../img/soporte.jpg");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: center center;
 }
-
+.fa fa-envelope-o{
+    color: white;
+}
 /*Centrar imágenes*/
 div.remoto a img{
     display: block;
@@ -34,11 +32,16 @@ div.remoto a img{
 footer{
     margin-top: 15px;
     text-align: center;
-    background: white;
+    color: white;
+    background: #353535;
     padding-top: 4px;
     padding-bottom: 4px;
-    box-sizing: border-box; /*Mantiene el tamaño original*/
+    /*box-sizing: border-box; /*Mantiene el tamaño original*/
 }
+footer p{
+    text-align: center;
+}
+
 div.contenedor{
     background: white;
     /*para centrar*/
@@ -82,7 +85,7 @@ img.logoAny{
 h1, h2, h3, h4{
     color: white;
     background: rgb(226, 113, 47);
-    border-radius: 20px;
+    border-radius: 10px;
     text-transform: uppercase;
     font-family: 'Merriweather', serif;
     text-align: center;
@@ -97,7 +100,7 @@ p,table{
 }
 /*Desarrollo*/
 .desarrolloweb div, div.manejadores{
-    background: rgb(243, 188, 117);
+    background: rgb(242, 242, 242);
     border-radius: 20px;
 }
 .desarrolloweb div p{
