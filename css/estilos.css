@@ -131,7 +131,7 @@ img.logoSuperior{
     height: 1.5em;
     margin: -8px;
 }
-header{
+div.divNav{
     background: rgb(226, 113, 47);
     font-family: 'Merriweather', serif;
     font-size: 1em;
@@ -170,7 +170,7 @@ nav.navegacion ul li a:active{
 }
 /*Paso por encima*/
 nav.navegacion ul li a:hover{
-    background-color: black
+    color: grey;
 }
 
 span{
